@@ -12,10 +12,14 @@
 		]
 	},
 	"installer": {
-		"version": 1,
-		"version_string": "1.0.0 PREVIEW",
+		"version": 3,
+		"version_string": "1.0.2 PREVIEW",
 		"changelog": [
-			"Made it crash less"
+			"Fixed vrpathreg not working properly",
+			"Fixed K2EX driver not getting removed properly",
+			"Fixed WiX causing installation to fail consistently",
+			"Fixed a potential crash while uninstalling",
+			"Hid the console window"
 		]
 	}
 }
