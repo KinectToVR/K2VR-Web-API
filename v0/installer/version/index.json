@@ -1,6 +1,6 @@
 {
-	"version": 3,
-	"version_string": "1.0.2 PREVIEW",
-	"download": "https://github.com/KinectToVR/Amethyst-Installer-Releases/releases/download/v1.0.2/Amethyst-Installer.exe",
+	"version": 4,
+	"version_string": "1.0.3 PREVIEW",
+	"download": "https://github.com/KinectToVR/Amethyst-Installer-Releases/releases/download/v1.0.3/Amethyst-Installer.exe",
 	"mirror": "https://api.k2vr.tech/mirrors/amethyst-installer-latest.exe"
 }

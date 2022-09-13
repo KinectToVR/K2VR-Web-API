@@ -12,14 +12,15 @@
 		]
 	},
 	"installer": {
-		"version": 3,
-		"version_string": "1.0.2 PREVIEW",
+		"version": 4,
+		"version_string": "1.0.3 PREVIEW",
 		"changelog": [
-			"Fixed vrpathreg not working properly",
-			"Fixed K2EX driver not getting removed properly",
-			"Fixed WiX causing installation to fail consistently",
-			"Fixed a potential crash while uninstalling",
-			"Hid the console window"
+			"Fixed WiX failing to setup the Kinect installers on machines where the username has a space in it.",
+			"Added multiple protocol links.",
+			"The installer now terminates more processes which interfere with the setup process.",
+			"The installer now automatically selects the Kinect for Windows SDK v1.8 if it detects that you have a compatible device plugged in.",
+			"Made logging faster.",
+			"Performance is worse in some scenarios now. This will be ironed out when the installer is near completion since real-time performance isn't crucial."
 		]
 	}
 }
