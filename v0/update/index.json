@@ -12,15 +12,20 @@
 		]
 	},
 	"installer": {
-		"version": 4,
-		"version_string": "1.0.3 PREVIEW",
+		"version": 5,
+		"version_string": "1.0.4 PREVIEW",
 		"changelog": [
-			"Fixed WiX failing to setup the Kinect installers on machines where the username has a space in it.",
-			"Added multiple protocol links.",
-			"The installer now terminates more processes which interfere with the setup process.",
-			"The installer now automatically selects the Kinect for Windows SDK v1.8 if it detects that you have a compatible device plugged in.",
-			"Made logging faster.",
-			"Performance is worse in some scenarios now. This will be ironed out when the installer is near completion since real-time performance isn't crucial."
+			"Optimised start-up and shutdown time. Basically the installer now starts and closes faster.",
+			"Implemented Mica!",
+			"Implemented `k2a` archive format. This format allows for both smaller downloads and significantly faster extract times. This also grants us the benefit of stripping lots of redundant metadata, and make it less likely to break during an install for whatever reason.",
+			"Implemented automatic Kinect detection.",
+			"Improved the UX in the System Requirements page.",
+			"The Compatible Devices section on the System Requirements page now shows which Kinect you have if any were detected.",
+			"Added a warning (which needs more work) to the system requirements page if lighthouses and an Xbox One Kinect is detected.",
+			"Installing the Kinect for Windows SDK v1.8 now automatically enables the Kinect microphone to attempt fixing E_NUI_NOTREADY.",
+			"Fixed a bug where the installer would not automatically detect E_NUI_NOTPOWERED and attempt to fix it.",
+			"Fixed a bug where the installer would crash when trying to use it on an unsupported version of Windows.",
+			"Fixed a bug where the installer would fail to install if the folder you choose had spaces in it."
 		]
 	}
 }
