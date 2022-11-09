@@ -16,7 +16,7 @@
 			"Localized VR Toasts, system Toasts",
 			"Proper widestring support for all languages",
 			"Per-device calibration and settings",
-			"More elements are generated with MVMM",
+			"More elements are generated with MVVM",
 			"Support device-provided language resources",
 			"New-User-Experience (TeachingTips)",
 			"Use mp4 MediaElement instead of gif",
