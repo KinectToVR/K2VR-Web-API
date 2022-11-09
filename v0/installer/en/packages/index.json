@@ -58,7 +58,7 @@
 					{
 						"executable": "vc_redist.x64.exe",
 						"arguments": "/install /quiet /norestart",
-						"successful_exit_codes": [ 0, 3010, 1641 ]
+						"successful_exit_codes": [ 0, 3010, 1641, 1602, 1604, 1618 ]
 					}
 				]
 			},

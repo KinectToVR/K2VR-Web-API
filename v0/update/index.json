@@ -26,20 +26,23 @@
 		]
 	},
 	"installer": {
-		"version": 5,
-		"version_string": "1.0.4 PREVIEW",
+		"version": 6,
+		"version_string": "1.0.6 PREVIEW",
 		"changelog": [
-			"Optimised start-up and shutdown time. Basically the installer now starts and closes faster.",
-			"Implemented Mica!",
-			"Implemented `k2a` archive format. This format allows for both smaller downloads and significantly faster extract times. This also grants us the benefit of stripping lots of redundant metadata, and make it less likely to break during an install for whatever reason.",
-			"Implemented automatic Kinect detection.",
-			"Improved the UX in the System Requirements page.",
-			"The Compatible Devices section on the System Requirements page now shows which Kinect you have if any were detected.",
-			"Added a warning (which needs more work) to the system requirements page if lighthouses and an Xbox One Kinect is detected.",
-			"Installing the Kinect for Windows SDK v1.8 now automatically enables the Kinect microphone to attempt fixing E_NUI_NOTREADY.",
-			"Fixed a bug where the installer would not automatically detect E_NUI_NOTPOWERED and attempt to fix it.",
-			"Fixed a bug where the installer would crash when trying to use it on an unsupported version of Windows.",
-			"Fixed a bug where the installer would fail to install if the folder you choose had spaces in it."
+			"Improved log file formatting.",
+			"Improved fetching of `%APPDATA%`.",
+			"Fixed view logs failing on multi-account setups.",
+			"The installer is now capable of distinguishing between Oculus Link and Oculus Air Link.",
+			"Fixed a crash when ready corrupt SteamVR settings.",
+			"Show a warning when attempting to close the installer mid-install.",
+			"USB Controllers are now implemented!",
+			"Fixed the installer failing to start in some scenarios.",
+			"Moved temporary directory back to `%TEMP%`.",
+			"Skip installing VCRedist if it's already installed.",
+			"Whitelist firewall rules for owoTrack.",
+			"The installer now checks for memory integrity.",
+			"The installer can now automagically fix `E_NUI_NOTREADY`.",
+			"Improvements to automatic fixes for `E_NUI_NOTPOWERED`."
 		]
 	}
 }
