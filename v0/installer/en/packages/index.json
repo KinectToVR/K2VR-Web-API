@@ -5,10 +5,10 @@
 			"display_name": "Amethyst",
 			"summary": "The Amethyst application itself.",
 			"description": "The Amethyst application itself.",
-			"display_version": "1.0.3.0",
-			"version": 2,
-			"filesize": 254730328,
-			"downloadsize": 101905401,
+			"display_version": "1.1.0.0",
+			"version": 3,
+			"filesize": 269570572,
+			"downloadsize": 106628505,
 			"required": true,
 			"visible": true,
 			"critical": true,
@@ -16,10 +16,10 @@
 				"vcredist2022"
 			],
 			"remote": {
-				"main_url": "https://github.com/KinectToVR/Amethyst-Releases/releases/download/v1.0.3.0/Amethyst-Release-1cce2c4.k2a",
+				"main_url": "https://github.com/KinectToVR/Amethyst-Releases/releases/download/v1.1.0.0/Amethyst-Release-4663ab4.k2a",
 				"mirror_url": "https://api.k2vr.tech/mirrors/amethyst-latest.k2a",
 				"filename": "amethyst-latest.k2a",
-				"checksum": "29D3EF2776D5510424162D2387C03B56"
+				"checksum": "E0CAA1B8D374C6691487DDE2296FD912"
 			},
 			"install": {
 				"type": "amethyst",

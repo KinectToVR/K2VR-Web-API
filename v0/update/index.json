@@ -1,14 +1,28 @@
 {
 	"amethyst": {
-		"version": 2,
-		"version_string": "1.0.3.0",
+		"version": 3,
+		"version_string": "1.1.0.0",
 		"changelog": [
-			"Light theme shouldn't now break the app! (Fixed calibration/offsets/device-settings/...)",
-			"Both the server driver and the API have been rewritten to use Google Protocol Buffers.",
-			"Amethyst now uses the native Win32 http client class for networking",
-			"Settings are handled by cereal, this should hopefully fix often config breaks",
-			"Filesystem handlers are operated by STL, this should decrease possible errors",
-			"Various string changes and interface stability updates"
+			"New server interface/API using gRPC",
+			"Devices may provide physics for prediction",
+			"Flip tweaks, use full playspace orientaion",
+			"Fixed crashes on brand new installs",
+			"Math-based orientation Mark 2",
+			"Way better overrides (both UI and backend)",
+			"PSMS uses SteamVR position prediction",
+			"Kinects only self-update to save CPU",
+			"Added a proper plugin/device manager",
+			"Multiple overrides are now possible",
+			"Localized VR Toasts, system Toasts",
+			"Proper widestring support for all languages",
+			"Per-device calibration and settings",
+			"More elements are generated with MVMM",
+			"Support device-provided language resources",
+			"New-User-Experience (TeachingTips)",
+			"Use mp4 MediaElement instead of gif",
+			"Way cuter calibration directions image",
+			"VR Admin check popout, blocking",
+			"Use MT libraries to prevent conflicts"
 		]
 	},
 	"installer": {
