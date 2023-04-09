@@ -5,10 +5,10 @@
 			"display_name": "Amethyst",
 			"summary": "The Amethyst application itself.",
 			"description": "The Amethyst application itself.",
-			"display_version": "1.1.0.0",
-			"version": 3,
-			"filesize": 269570572,
-			"downloadsize": 106628505,
+			"display_version": "1.2.1.3",
+			"version": 5,
+			"filesize": 638652156,
+			"downloadsize": 234696325,
 			"required": true,
 			"visible": true,
 			"critical": true,
@@ -16,10 +16,10 @@
 				"vcredist2022"
 			],
 			"remote": {
-				"main_url": "https://github.com/KinectToVR/Amethyst-Releases/releases/download/v1.1.0.0/Amethyst-Release-4663ab4.k2a",
+				"main_url": "https://github.com/KinectToVR/Amethyst-Releases/releases/download/v1.2.1.3/Amethyst-Release-b4e84eb.k2a",
 				"mirror_url": "https://api.k2vr.tech/mirrors/amethyst-latest.k2a",
 				"filename": "amethyst-latest.k2a",
-				"checksum": "E0CAA1B8D374C6691487DDE2296FD912"
+				"checksum": "5B149AC54CF7D474B5C30CA17327FF81"
 			},
 			"install": {
 				"type": "amethyst",
@@ -67,7 +67,6 @@
 				"version": "2022"
 			}
 		},
-
 		{
 			"id": "wix",
 			"display_name": "Windows Install XML Toolset",
@@ -158,6 +157,89 @@
 			"detect": {
 				"type": "env-var",
 				"variable": "KINECT_TOOLKIT_DIR"
+			}
+		},
+		{
+			"id": "psmsex",
+			"display_name": "PSMoveServiceEx",
+			"summary": "PSMoveService is a third-party application that adds support for PS Move controllers and optionally to track them using PS Eye cameras.",
+			"description": "PSMoveService is a third-party application that adds support for PS Move controllers and optionally to track them using PS Eye cameras.\n\nPSMoveServiceEx is a modern fork that fixes many bugs, adds new features and more.",
+			"display_version": "0.21.0",
+			"version": 1,
+			"filesize": 47609380,
+			"downloadsize": 18942046,
+			"required": false,
+			"visible": false,
+			"critical": false,
+			"depends": [],
+			"remote": {
+				"main_url": "https://github.com/Timocop/PSMoveServiceEx/releases/download/v0.21.0/PSMoveService.zip",
+				"mirror_url": "https://api.k2vr.tech/mirrors/PSMoveService-latest.zip",
+				"filename": "PSMoveService-latest.zip",
+				"checksum": "7DC4DFF28FD85C8879FA7B5C26C89DF9"
+			},
+			"install": {
+				"type": "psmsex",
+				"items": [
+					"PSMoveService-latest.zip"
+				]
+			}
+		},
+		{
+			"id": "psmsex-vdm",
+			"display_name": "PSMoveServiceEx",
+			"summary": "PSMoveService is a third-party application that adds support for PS Move controllers and optionally to track them using PS Eye cameras.",
+			"description": "PSMoveService is a third-party application that adds support for PS Move controllers and optionally to track them using PS Eye cameras.\n\nPSMoveServiceEx is a modern fork that fixes many bugs, adds new features and more.",
+			"display_version": "0.20.0",
+			"version": 1,
+			"filesize": 107861999,
+			"downloadsize": 36897216,
+			"required": false,
+			"visible": true,
+			"critical": false,
+			"depends": [
+				"psmsex"
+			],
+			"remote": {
+				"main_url": "https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager/releases/download/v8.2/PSMSVirtualDeviceManager.zip",
+				"mirror_url": "https://api.k2vr.tech/mirrors/PSMSVirtualDeviceManager.zip",
+				"filename": "PSMSVirtualDeviceManager.zip",
+				"checksum": "6978587886D9AD72270CC46FBB3FE00B"
+			},
+			"install": {
+				"type": "psmsex-vdm",
+				"items": [
+					"PSMSVirtualDeviceManager.zip"
+				]
+			}
+		},
+		{
+			"id": "psmsex-drivers",
+			"display_name": "PlayStation Eye Camera Drivers",
+			"summary": "Installs the drivers which are required to use PS Eye cameras with PSMoveServiceEx.",
+			"description": "Installs the drivers which are required to use PS Eye cameras with PSMoveServiceEx.",
+			"display_version": "0.20.0",
+			"version": 1,
+			"filesize": 0,
+			"downloadsize": 0,
+			"required": false,
+			"visible": true,
+			"critical": false,
+			"depends": [
+				"psmsex",
+				"psmsex-vdm"
+			],
+			"remote": {
+				"main_url": "https://github.com/KinectToVR/Amethyst-Releases/releases/download/v1.1.0.0/version",
+				"mirror_url": "https://api.k2vr.tech/mirrors/Amethyst-version",
+				"filename": ".temp",
+				"checksum": "2709975BB822441EF1689235725FFA98"
+			},
+			"install": {
+				"type": "psmsex-drivers",
+				"items": [
+					"PSMSVirtualDeviceManager.zip"
+				]
 			}
 		}
 	],
@@ -252,6 +334,8 @@
 		"Nemi is in your walls.",
 		"Stanley, is this a bucket?",
 		"It just works! And it comes with a map, that glows in the fckin' dark.",
-		"Linus can't spell Renesas."
+		"Linus can't spell Renesas.",
+		"Type 666.",
+		"Now with DirectX 11!"
 	]
 }
