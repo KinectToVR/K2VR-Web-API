@@ -173,7 +173,7 @@
 			"critical": false,
 			"depends": [],
 			"remote": {
-				"main_url": "https://github.com/Timocop/PSMoveServiceEx/releases/download/v0.21.0/PSMoveService.zip",
+				"main_url": "https://github.com/Timocop/PSMoveServiceEx/releases/download/v0.21/PSMoveService.zip",
 				"mirror_url": "https://api.k2vr.tech/mirrors/PSMoveService-latest.zip",
 				"filename": "PSMoveService-latest.zip",
 				"checksum": "7DC4DFF28FD85C8879FA7B5C26C89DF9"
