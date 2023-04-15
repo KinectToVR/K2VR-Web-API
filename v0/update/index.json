@@ -11,16 +11,11 @@
 		]
 	},
 	"installer": {
-		"version": 8,
-		"version_string": "1.0.8",
+		"version": 9,
+		"version_string": "1.0.9",
 		"changelog": [
-			"Kinect drivers now more rigorously check whether they've installed properly.",
-			"Added an option to select OSC or SteamVR tracking at install time.",
-			"Added a DirectX11 backend for improved rendering performance.",
-			"Fixed a bug where the installer would fail if a DVD driver was attached to your computer with a disc.",
-			"Added the ability to tell SteamVR to start-up Amethyst automatically through the installer.",
-			"Stability improvements.",
-			"Added the ability to install PSMoveServiceEX through the installer."
+			"Fixed a bug which prevented you from installing Amethyst in certain scenarios.",
+			"Fixed automatic start-up not working."
 		]
 	}
 }
