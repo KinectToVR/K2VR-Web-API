@@ -1,7 +1,7 @@
 {
 	"amethyst": {
-		"version": 6,
-		"version_string": "1.2.1.4",
+		"version": 10,
+		"version_string": "1.2.5.0",
 		"changelog": [
 			"Fixed joint, override, and device controls",
 			"More consequent update and store behavior",
@@ -11,9 +11,10 @@
 		]
 	},
 	"installer": {
-		"version": 9,
-		"version_string": "1.0.9",
+		"version": 10,
+		"version_string": "1.0.10",
 		"changelog": [
+			"Use Microsoft Store instead of the installer",
 			"Fixed a bug which prevented you from installing Amethyst in certain scenarios.",
 			"Fixed automatic start-up not working."
 		]
